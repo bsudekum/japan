@@ -98,6 +98,8 @@ L.geoJson(train, {
 map.addLayer(routeFeature);
 map.fitBounds(routeFeature.getBounds());
 
+if(!window.location.hash) window.location.hash = 27;
+
 var overAllCounter = parseInt(window.location.hash.split('#')[1]) || '';
 updateHash(overAllCounter)
 

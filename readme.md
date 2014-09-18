@@ -2,7 +2,7 @@
 
 ![](https://i.cloudup.com/5QP8_ZJSbP.png)
 
-[Map link](visuallybs.com/japan/map)
+[Map link](http://visuallybs.com/japan/map/)
 
 ### Processing Images
 
