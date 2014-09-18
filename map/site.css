@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+#map {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+}
+video {
+    -ms-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+.next, .previous {
+    top: 50%;
+}
+.markerIcon img {
+    border-radius: 10px;
+    border: 1px solid white;
+}
+.leaflet-popup-content {
+    padding: 0;
+}
+.leaflet-popup-content img {
+    border-radius: 3px;
+}
+.expand {
+    position: absolute;
+    bottom: 30px;
+    right: 10px;
+    height: 16px;
+    background: white;
+    opacity: .4;
+}
+.expand:hover {
+    opacity: 1
+}
+
